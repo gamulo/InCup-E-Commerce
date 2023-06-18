@@ -1,0 +1,110 @@
+
+* {
+    font-family: 'Lemon', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+   background: #FBEEE5;
+   display: flex;
+   flex-direction: column;
+}
+
+.nav-link {
+   color: #FBEEE5;
+}
+
+.navbar {
+   background: fixed;
+   background-color: #14463A;
+   display: flex;
+   align-items: center;
+   position: fixed;
+   justify-content: space-between;
+   width: 100%;
+ }
+
+.navbar-brand {
+   display: flex;
+}
+.cart {
+   display: flex;
+   position: absolute;
+   right: 220px;
+}
+
+.profile{
+   display: flex;
+   position: absolute;
+   right: 10px;
+}
+
+.nav {
+   display: flex; 
+   flex-direction: row;
+   align-items: center;
+   padding: 0px;
+   gap: 78px;
+   justify-content: space-between;
+}
+
+.w-h-100 {
+   width: 250px;
+   height: 150px;
+}
+
+
+ .circle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    
+    position: absolute;
+    width: 66px;
+    height: 32px;
+    left: 1332px;
+    top: 14px;
+ }
+
+ .title {
+    justify-content: center;
+    color: #FBEEE5;
+  
+ }
+
+ /* responsive
+ @media only screen and (max-width: 1500px) {
+    .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap:68px;
+    
+     }
+     .circle {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        
+        position: absolute;
+        width: 66px;
+        height: 32px;
+        left: 1032px;
+        top: 14px;
+     }
+     
+    .incup {
+        position: absolute;
+        left: 509px;
+        top: 79px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 120px;
+    }
+   */
+

@@ -1,0 +1,49 @@
+#clients{
+    background-color:#14463A;
+    height: 100vh;
+ }
+ .clients-text {
+    color: #FBEEE5;
+    font-size: 30px;
+    line-height: 65px;
+ }
+ .containers {
+   width: 18rem;
+ }
+ .clients-spacing-height {
+   height: 50px;
+ }
+ .clients-spacing-width {
+   width: 120px;
+ }
+
+.sponsor {
+   display: flex;
+   flex-direction: column;
+}
+
+.all-texts {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.rows {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   height: 20rem;
+}
+
+.rows img {
+   width: 25rem;
+   height: 15rem;
+
+}
+
+@media only screen and (max-width: 900px) {
+   .row {
+      display: flex;
+      flex-direction: column;
+   }
+}
