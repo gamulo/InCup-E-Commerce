@@ -10,7 +10,7 @@
 
 <style>
     .error {
-        margin: 0px auto;
+        margin: 0px auto; 
         padding: 10px;
         text-align: center;
         color: #FBEEE5;
